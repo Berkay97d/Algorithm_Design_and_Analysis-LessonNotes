@@ -39,31 +39,35 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Algorithms\ComparisonCountingSort.cs" />
-        <Compile Include="Algorithms\ConsecutiveIntegerChecking.cs" />
-        <Compile Include="Algorithms\Euclid.cs" />
-        <Compile Include="Algorithms\Fibonnacci.cs" />
-        <Compile Include="Algorithms\Homework1\ClosestPair.cs" />
-        <Compile Include="Algorithms\Homework1\Point.cs" />
-        <Compile Include="Algorithms\Homework2\Item.cs" />
-        <Compile Include="Algorithms\Homework2\Knapsack.cs" />
-        <Compile Include="Algorithms\Homework2\Thief.cs" />
-        <Compile Include="Algorithms\KnapsackProblem.cs" />
-        <Compile Include="Algorithms\PrimeSchoolProcedure.cs" />
+        <Compile Include="Algorithms\Examples\ConsecutiveIntegerChecking.cs" />
+        <Compile Include="Algorithms\Examples\Euclid.cs" />
+        <Compile Include="Algorithms\Examples\Fibonnacci.cs" />
+        <Compile Include="Algorithms\Examples\KnapsackProblem.cs" />
+        <Compile Include="Algorithms\Examples\PrimeSchoolProcedure.cs" />
+        <Compile Include="Algorithms\Examples\SieveOfEratosthenes.cs" />
+        <Compile Include="Algorithms\Examples\TravelerSailsmanProblem.cs" />
+        <Compile Include="Algorithms\Homeworks\Homework1\ClosestPair.cs" />
+        <Compile Include="Algorithms\Homeworks\Homework1\Point.cs" />
+        <Compile Include="Algorithms\Homeworks\Homework2\Item.cs" />
+        <Compile Include="Algorithms\Homeworks\Homework2\Knapsack.cs" />
+        <Compile Include="Algorithms\Homeworks\Homework2\Thief.cs" />
         <Compile Include="Algorithms\Searching\Brute Force\SequentialSearch.cs" />
         <Compile Include="Algorithms\Searching\Brute Force\StringMatch.cs" />
         <Compile Include="Algorithms\Searching\Divide and Conqure\BinarySearch.cs" />
-        <Compile Include="Algorithms\SieveOfEratosthenes.cs" />
         <Compile Include="Algorithms\Sorting\Brute Force\BubbleSort.cs" />
         <Compile Include="Algorithms\Sorting\Brute Force\SelectionSort.cs" />
+        <Compile Include="Algorithms\Sorting\ComparisonCountingSort.cs" />
         <Compile Include="Algorithms\Sorting\Dicrease and Conqure\InsertionSort.cs" />
         <Compile Include="Algorithms\Sorting\Divide and Conqure\MergeSort.cs" />
-        <Compile Include="Algorithms\TravelerSailsmanProblem.cs" />
+        <Compile Include="Exercises.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Notes\Note.txt" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Algorithms\Homeworks" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

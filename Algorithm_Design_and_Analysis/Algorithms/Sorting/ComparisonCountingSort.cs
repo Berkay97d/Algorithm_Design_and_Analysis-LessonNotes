@@ -18,11 +18,11 @@
                     
                     if (A[i] < A[j])                      
                     {
-                        counter[j] = counter[j] + 1;
+                        counter[j] =+ 1;
                     }
                     else
                     {
-                        counter[i] = counter[i] + 1;
+                        counter[i] =+ 1;
                     }
                     
                 } 

@@ -18,9 +18,10 @@ namespace Algorithm_Design_and_Analysis
     {
      
         
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
 
+            /*
             Item item1 = new Item("elmas", 1, 10);
             Item item2 = new Item("yakut", 100, 10);
             Item item3 = new Item("gümüş", 100, 10);
@@ -36,13 +37,14 @@ namespace Algorithm_Design_and_Analysis
             {
                 Console.WriteLine(VARIABLE.GetName());
             }
+            #1#
 
 
 
 
 
 
-        }
+        }*/
         
         
         

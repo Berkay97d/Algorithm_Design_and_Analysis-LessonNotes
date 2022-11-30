@@ -6,9 +6,13 @@
         public static int Match(string text, string target)
         {
             int index = -1;
+            int counter = 0;
+
             for (int j = 0; j < text.Length; j++)
             {
-                if (text[j] == target[0])
+                counter++;
+                
+                if (text[j] == target[0]) 
                 {
                     for (int i = 0; i < target.Length; i++)
                     {

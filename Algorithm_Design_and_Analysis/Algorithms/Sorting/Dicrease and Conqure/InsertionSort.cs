@@ -4,12 +4,12 @@
     {
         public static int[] Sort(int[] arr) 
         {
-            for (int i = 1; i < arr.Length; i++) 
+            for (int i = 1; i < arr.Length; i++) //2-3-1
             {
-                int n1 = arr[i];
-                int j = i - 1;  
+                int n1 = arr[i];   // 1 in arr
+                int j = i - 1;      //1
 
-                while (j >= 0 && arr[j]>n1) 
+                while (j >= 0 && arr[j]>n1)  
                 {
                     arr[j + 1] = arr[j]; 
                     j--;
