@@ -51,12 +51,13 @@
         <Compile Include="Algorithms\Homeworks\Homework2\Item.cs" />
         <Compile Include="Algorithms\Homeworks\Homework2\Knapsack.cs" />
         <Compile Include="Algorithms\Homeworks\Homework2\Thief.cs" />
+        <Compile Include="Algorithms\LeetCodeSolutions.cs" />
         <Compile Include="Algorithms\Searching\Brute Force\SequentialSearch.cs" />
         <Compile Include="Algorithms\Searching\Brute Force\StringMatch.cs" />
         <Compile Include="Algorithms\Searching\Divide and Conqure\BinarySearch.cs" />
         <Compile Include="Algorithms\Sorting\Brute Force\BubbleSort.cs" />
         <Compile Include="Algorithms\Sorting\Brute Force\SelectionSort.cs" />
-        <Compile Include="Algorithms\Sorting\ComparisonCountingSort.cs" />
+        <Compile Include="Algorithms\Sorting\Dicrease and Conqure\ComparisonCountingSort.cs" />
         <Compile Include="Algorithms\Sorting\Dicrease and Conqure\InsertionSort.cs" />
         <Compile Include="Algorithms\Sorting\Divide and Conqure\MergeSort.cs" />
         <Compile Include="Exercises.cs" />

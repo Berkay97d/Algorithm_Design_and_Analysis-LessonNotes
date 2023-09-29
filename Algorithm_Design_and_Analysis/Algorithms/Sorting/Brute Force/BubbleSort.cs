@@ -2,8 +2,9 @@
 {
     public class BubbleSort
     {
-        public static int[] Sort(int[] arr)   // 3-2-1-0  length 4
+        public static int[] Sort(int[] arr)
         {
+            bool isSwaped = false;
             
             for (int i = 0; i < arr.Length; i++)
             {
@@ -11,17 +12,23 @@
                 {
                     if (arr[j] > arr[j+1])
                     {
+                        isSwaped = true;
                         
                         int temp = arr[j];
                         arr[j] = arr[j + 1];
                         arr[j + 1] = temp;
                     }
                 }
+
+                if (!isSwaped)
+                {
+                    return arr;
+                }
+                
             }
-
             return arr;
-
         }
+        
         
     }
 }

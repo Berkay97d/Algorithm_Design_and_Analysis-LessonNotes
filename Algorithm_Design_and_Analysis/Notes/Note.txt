@@ -20,7 +20,7 @@ Data Structureler
 
 ----------------------------------------------------------------
 
-BASIC OPERATION: the operation that contributes mosttowards the running time of the algorithm
+BASIC OPERATION: the operation that contributes most towards the running time of the algorithm
 
 ----------------------------------------------------------------
 
@@ -48,5 +48,24 @@ Brute Force
 
 !!!  STABILITY AND IN PLACE KAVRAMLARI !!!
 
+----------------------------------------------------------------
+
+-Binary tree search tipleri => inorder, preorder, postorder
+-BİNARY TREE KODLA TÜM ARAMA TİPLERİNİ FONKSİYON OLARAK YAZ
+-5.4 Exercises soru 8.a, preorder ve post orderları verilmiş binary tree'yi çizme! (FİNAL, CEVAP TELEFONDA VAR)
+
+----------------------------------------------------------------
+
+-Multiplying large Integers
+-Matrix Multiplication with Divide and Conqure
 
 
+----------------------------------------------------------------
+
+-Prim's algorithm   26.10.2022 online derste var, direkt çizim değil önce priority que isteniyor (Greedy teqnique))
+-Kruskal algoritması (liste yaptığımız arkadaş)
+-Dijkstra algoritmas 
+
+----------------------------------------------------------------
+
+-lower bounds

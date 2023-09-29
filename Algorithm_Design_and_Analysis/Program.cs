@@ -16,38 +16,20 @@ namespace Algorithm_Design_and_Analysis
 {
     internal class Program
     {
-     
-        
-        /*public static void Main(string[] args)
+        public static bool isArrayUnique(int[] arr)
         {
-
-            /*
-            Item item1 = new Item("elmas", 1, 10);
-            Item item2 = new Item("yakut", 100, 10);
-            Item item3 = new Item("gümüş", 100, 10);
+            MergeSort.Sort(arr);
             
-            List<Item> items = new List<Item>{item1, item2, item3};
-
-            Knapsack knapsack = new Knapsack(10);
-            Thief thief = new Thief();
-            
-            thief.StoleMostEfficient(items,knapsack);
-
-            foreach (var VARIABLE in knapsack.GetItems())
+            for (int i = 0; i < arr.Length-1; i++)
             {
-                Console.WriteLine(VARIABLE.GetName());
+                if (arr[i] == arr[i+1] )
+                {
+                    return false;
+                }
             }
-            #1#
 
-
-
-
-
-
-        }*/
-        
-        
-        
+            return true;
+        }
         
         
         
